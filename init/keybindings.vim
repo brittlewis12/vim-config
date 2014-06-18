@@ -5,7 +5,6 @@ let mapleader = ","
 let maplocalleader = ";"
 
 " Gracefully handle holding shift too long after : for common commands
-cabbrev W w
 cabbrev Q q
 cabbrev Wq wq
 cabbrev Tabe tabe
@@ -25,10 +24,12 @@ vmap <leader>s  :s/
 map <leader>v   :vsp<CR>
 
 " Move between screens
-map <leader>w   ^Ww
 map <leader>=   ^W=
 map <leader>j   ^Wj
 map <leader>k   ^Wk
+
+" Fast saving
+nmap <leader>w :w!<cr>
 
 " Open .vimrc file in new tab. Think Command + , [Preferences...] but with Shift.
 map <D-<>       :tabedit ~/.vimrc<CR>
@@ -135,5 +136,5 @@ nmap du :diffupdate<CR>
 map <leader>u :GundoToggle<CR>
 
 " inserts [#SID] into your commit message,
-" assuming your branches follow the naming scheme: team_SID_description
+" assuming your branches follow the naming scheme: prefix_SID_branch_name
 nnoremap <leader>i :Sid<CR>

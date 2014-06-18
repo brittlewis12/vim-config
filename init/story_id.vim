@@ -1,5 +1,5 @@
 " inserts [#SID] into your commit message,
-" assuming your branches follow the naming scheme: team_SID_description
+" assuming your branches follow the naming scheme: prefix_SID_branch_name
 function! InsertStoryId()
   let sid_command = "mi"                           " mark current position
 

@@ -57,9 +57,6 @@ set sessionoptions-=options
 
 set hls                             " search with highlights by default
 
-" for the following filetypes, remove training white space upon save
-autocmd FileType rb,c,cpp,java,h,m,js,hs,md,php,py,css,html,haml,erb,ru,swift autocmd BufWritePre <buffer> :%s/\s\+$//e
-
 " Press Space to turn off highlighting and clear any message already
 " displayed.
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>""

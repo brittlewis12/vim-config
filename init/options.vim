@@ -1,4 +1,5 @@
 set guifont=Monaco:h16
+set t_Co=256                        " Use 256 terminal colors
 set guioptions-=T                   " Remove GUI toolbar
 set guioptions-=e                   " Use text tab bar, not GUI
 set guioptions-=rL                  " Remove scrollbars

@@ -23,6 +23,7 @@ set wildignore+=public/uploads/**   " ...Also uploads.
 set wildignore+=private/uploads/**  " ...Also uploads.
 set wildignore+=public/images/**    " ...Also images.
 set wildignore+=vendor/**           " ...Also vendor.
+set wildignore+=node_modules/**     " ...Also node_modules.
 set wildmenu
 if has("win16") || has("win32")
     set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store

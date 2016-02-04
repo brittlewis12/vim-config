@@ -21,6 +21,7 @@ set wildignore+=tags                " Ignore tags when globbing.
 set wildignore+=tmp/**              " ...Also tmp files.
 set wildignore+=public/uploads/**   " ...Also uploads.
 set wildignore+=private/uploads/**  " ...Also uploads.
+set wildignore+=public/assets/**    " ...Also assets.
 set wildignore+=public/images/**    " ...Also images.
 set wildignore+=vendor/**           " ...Also vendor.
 set wildignore+=node_modules/**     " ...Also node_modules.

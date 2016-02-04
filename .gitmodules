@@ -163,3 +163,6 @@
 [submodule "bundle/vim-css3-syntax"]
 	path = bundle/vim-css3-syntax
 	url = https://hail2u@github.com/hail2u/vim-css3-syntax.git
+[submodule "bundle/scss-syntax"]
+	path = bundle/scss-syntax
+	url = git@github.com:cakebaker/scss-syntax.vim.git

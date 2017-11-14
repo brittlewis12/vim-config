@@ -166,3 +166,6 @@
 [submodule "bundle/scss-syntax"]
 	path = bundle/scss-syntax
 	url = git@github.com:cakebaker/scss-syntax.vim.git
+[submodule "bundle/vim-ripgrep"]
+	path = bundle/vim-ripgrep
+	url = git@github.com:jremmen/vim-ripgrep.git

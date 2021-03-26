@@ -9,6 +9,8 @@ set notimeout                       " No command timeout
 set showcmd                         " Show typed command prefixes while waiting for operator
 set mouse=a                         " Use mouse support in XTerm/iTerm.
 
+set re=0                            " Use new regular expression engine
+
 set expandtab                       " Use soft tabs
 set tabstop=2                       " Tab settings
 set autoindent

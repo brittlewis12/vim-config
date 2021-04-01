@@ -10,7 +10,7 @@ endfunction
 
 " Strip whitespace for code files
 autocmd BufWritePre *.m,*.h,*.c,*.mm,*.cpp,*.hpp,*.swift call StripTrailingWhitespace()
-autocmd BufWritePre *.rb,*.yml,*.js,*.jsx,*.json,*.coffee,*.css,*.less,*.sass,*.scss,*.html,*.xml,*.jbuilder,*.erb,*.haml,*.slim call StripTrailingWhitespace()
+autocmd BufWritePre *.rb,*.yml,*.js,*.jsx,*.json,*.ts,*.tsx,*.coffee,*.css,*.less,*.sass,*.scss,*.html,*.xml,*.jbuilder,*.erb,*.haml,*.slim call StripTrailingWhitespace()
 autocmd BufWritePre *.lua,*.java,*.php,*.feature,*.py call StripTrailingWhitespace()
 autocmd BufWritePre *.md,*.ex,*.exs,*.erl,*.hs,*.rs,*.go call StripTrailingWhitespace()
 

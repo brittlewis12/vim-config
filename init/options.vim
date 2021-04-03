@@ -1,4 +1,6 @@
-set guifont=Monaco\ for\ Powerline:h12
+set guifont=MonoLisa:h12
+" set guifont=Monaco\ for\ Powerline:h12
+" set guifont=SFMono\ Nerd\ Font:h13
 set t_Co=256                        " Use 256 terminal colors
 set guioptions-=T                   " Remove GUI toolbar
 set guioptions-=e                   " Use text tab bar, not GUI

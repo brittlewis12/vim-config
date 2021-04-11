@@ -175,3 +175,6 @@
 [submodule "bundle/vim-toml"]
 	path = bundle/vim-toml
 	url = https://github.com/cespare/vim-toml.git
+[submodule "/Users/tito/.vim/bundle/rust.vim"]
+	path = /Users/tito/.vim/bundle/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git

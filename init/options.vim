@@ -12,6 +12,7 @@ set showcmd                         " Show typed command prefixes while waiting 
 set mouse=a                         " Use mouse support in XTerm/iTerm.
 
 set re=0                            " Use new regular expression engine
+set vb t_vb=                        " disable audible bell for extraneous key strokes
 
 set expandtab                       " Use soft tabs
 set tabstop=2                       " Tab settings
@@ -86,4 +87,5 @@ endif
 " http://code.google.com/p/macvim/issues/detail?id=342
 if has("gui_running")
   set noballooneval
+  autocmd GUIEnter * set vb t_vb=
 endif

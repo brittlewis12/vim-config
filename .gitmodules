@@ -178,3 +178,6 @@
 [submodule "/Users/tito/.vim/bundle/rust.vim"]
 	path = /Users/tito/.vim/bundle/rust.vim
 	url = https://github.com/rust-lang/rust.vim.git
+[submodule "pack/brittlewis12/start/graphql"]
+	path = pack/brittlewis12/start/graphql
+	url = https://github.com/jparise/vim-graphql.git

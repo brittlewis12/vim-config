@@ -153,7 +153,7 @@
 	url = git@github.com:elixir-lang/vim-elixir.git
 [submodule "bundle/rust.vim"]
 	path = bundle/rust.vim
-	url = https://github.com/wting/rust.vim.git
+	url = https://github.com/rust-lang/rust.vim
 [submodule "bundle/vim-easymotion"]
 	path = bundle/vim-easymotion
 	url = https://github.com/Lokaltog/vim-easymotion

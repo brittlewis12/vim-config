@@ -181,3 +181,6 @@
 [submodule "pack/brittlewis12/start/graphql"]
 	path = pack/brittlewis12/start/graphql
 	url = https://github.com/jparise/vim-graphql.git
+[submodule "pack/github/start/graphql"]
+	path = pack/github/start/graphql
+	url = https://github.com/jparise/vim-graphql.git

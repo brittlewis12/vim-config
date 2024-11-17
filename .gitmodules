@@ -184,3 +184,10 @@
 [submodule "pack/github/start/graphql"]
 	path = pack/github/start/graphql
 	url = https://github.com/jparise/vim-graphql.git
+[submodule "pack/github/start/copilot.vim"]
+	path = pack/github/start/copilot.vim
+	url = https://github.com/github/copilot.vim
+	branch = release
+[submodule "pack/github/start/rustaceanvim"]
+	path = pack/github/start/rustaceanvim
+	url = https://github.com/mrcjkb/rustaceanvim

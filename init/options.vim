@@ -1,4 +1,4 @@
-set guifont=MonoLisa:h12
+set guifont="MonoLisa Variable":h12
 " set guifont=Monaco\ for\ Powerline:h12
 " set guifont=SFMono\ Nerd\ Font:h13
 set t_Co=256                        " Use 256 terminal colors

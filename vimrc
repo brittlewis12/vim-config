@@ -15,6 +15,11 @@
 
 set nocompatible
 
+if has('nvim')
+set runtimepath^=~/.vim runtimepath+=~/.vim/after
+let &packpath = &runtimepath
+endif
+
 execute pathogen#infect()
 
 syntax on
